@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.books-tabs .ant-tabs-top > .ant-tabs-nav {
+  margin-bottom: 0px !important;
+}
+
+.ant-tabs .ant-tabs-ink-bar {
+  background: #e9692c !important;
+}
+
+.ant-tabs .ant-tabs-tab .ant-tabs-tab-btn {
+  color: black !important;
+  font-family: 'poppins', sans-serif !important;
+  font-size: 20px !important;
+}
+
+.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  font-size: 20px !important;
+  font-weight: 500 !important;
+}
